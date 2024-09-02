@@ -10,13 +10,6 @@ public class OpenFirefoxBrowser {
 		//Do I need to re-attach the libraries?
 			//No, we already added the external jar files (language bindings)
 		
-		//Do I have to download the driver? 
-			//On previous versions of Selenium we had to download the driver for any browser we wanted to use. 
-			//Now, Selenium handles that itself.
-		
-		
-		//Open the Firefox Browser
-		WebDriver driver = new FirefoxDriver();
 		
 		
 		//we want to go to the neotechacademy URL
