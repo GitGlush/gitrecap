@@ -13,9 +13,7 @@ public class LoginCSSSelector {
 		WebDriver driver = new ChromeDriver();
 		driver.get(url);
 
-		// send the username and password
-		// this time we will locate the elements using CSSSelectors
-
+		
 		driver.findElement(By.cssSelector("input#tUsername")).sendKeys("Admin");
 		driver.findElement(By.cssSelector("input#tPassword")).sendKeys("Neotech$123");
 
