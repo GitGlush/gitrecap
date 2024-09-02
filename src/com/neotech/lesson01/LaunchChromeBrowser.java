@@ -7,7 +7,7 @@ public class LaunchChromeBrowser {
 
 	public static void main(String[] args) throws InterruptedException {
 
-
+		WebDriver driver = new ChromeDriver();
 		//Open the browser
 		WebDriver driver = new ChromeDriver();  //CTRL + SHIFT + O  -- imports the necessary objects
 		
